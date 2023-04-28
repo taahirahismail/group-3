@@ -1,5 +1,4 @@
 body {
-    /* margin: 0 350px; */
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: beige;
@@ -10,7 +9,7 @@ body {
     border: 1px solid;
     border-radius: 10px;
     text-align: center;
-    width: 55%;
+    width: 53%;
     height: auto;
     float: left;
 }
@@ -43,7 +42,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     border: 1px solid;
     border-radius: 5px;
-    width: 350px;
+    width: 99%;
     height: 30px;
 }
 
@@ -71,12 +70,12 @@ body {
 
 .calendar {
     margin: 10px 0;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid;
     border-radius: 10px;
     width: 40%;
-    height: auto;
-    float: left;
+    height: 500px;
+    float: right;
 }
 
 .month h2 {
@@ -100,7 +99,7 @@ body {
     border-radius: 5px;
     background-color: antiquewhite;
     width: 100%;
-    height: 40px;
+    height: 50px;
 }
 
 .grid-date button:first-child {
@@ -113,11 +112,12 @@ body {
 
 .details {
     margin-top: 0;
-    padding: 10px;
+    padding: 20px;
     border: 1px solid;
     border-radius: 10px;
     width: 40%;
-    float: left;
+    height: 150px;
+    float: right;
 }
 
 .details h4 {
@@ -134,20 +134,25 @@ body {
     color: rgba(0, 0, 0, 0.6);
 }
 
-footer {
+.footer {
+    font-size: 10px;
     text-align: center;
-    padding: 10px;
-    position: absolute;
-    clear: both;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: bisque;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
 }
 
-footer .icons {
+.footer .icons {
     display: flex;
     padding: 10px;
     float: right;
 }
 
-footer .icons img {
+.footer .icons img {
     padding: 3px;
 }
 
