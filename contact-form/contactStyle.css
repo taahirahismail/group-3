@@ -1,14 +1,18 @@
 body {
+    /* margin: 0 350px; */
     padding: 10px;
     font-family: Arial, Helvetica, sans-serif;
     background-color: beige;
 }
 
 .contactForm {
-    padding: 10px;
+    padding: 20px;
     border: 1px solid;
     border-radius: 10px;
     text-align: center;
+    width: 55%;
+    height: auto;
+    float: left;
 }
 
 .contactForm h2 {
@@ -66,10 +70,13 @@ body {
 }
 
 .calendar {
-    margin: 20px 0;
+    margin: 10px 0;
     padding: 10px;
     border: 1px solid;
     border-radius: 10px;
+    width: 40%;
+    height: auto;
+    float: left;
 }
 
 .month h2 {
@@ -100,11 +107,17 @@ body {
     grid-column: 7;
 }
 
+.grid-date button:hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+
 .details {
     margin-top: 0;
     padding: 10px;
     border: 1px solid;
     border-radius: 10px;
+    width: 40%;
+    float: left;
 }
 
 .details h4 {
@@ -123,8 +136,35 @@ body {
 
 footer {
     text-align: center;
+    padding: 10px;
+    position: absolute;
+    clear: both;
 }
 
 footer .icons {
-    text-align: right;
+    display: flex;
+    padding: 10px;
+    float: right;
+}
+
+footer .icons img {
+    padding: 3px;
+}
+
+.logo img {
+    width: 50px;
+    float: left;
+}
+
+.footerDetail {
+    padding-top: 10px;
+}
+
+.footerDetail a {
+    color: black;
+    text-decoration: none;
+}
+
+.footerDetail a:hover {
+    color: rgba(0, 0, 0, 0.6);
 }
