@@ -5,6 +5,7 @@ body {
 }
 
 .contactForm {
+    margin-bottom: 10px;
     padding: 20px;
     border: 1px solid;
     border-radius: 10px;
@@ -70,6 +71,7 @@ body {
 
 .calendar {
     margin: 0;
+    margin-bottom: 10px;
     padding: 20px;
     border: 1px solid;
     border-radius: 10px;
@@ -112,6 +114,7 @@ body {
 
 .details {
     margin-top: 0;
+    margin-bottom: 10px;
     padding: 20px;
     border: 1px solid;
     border-radius: 10px;
@@ -145,7 +148,7 @@ footer {
     margin-top: 20px;
     background-color: bisque;
     display: flex;
-    width: 100%;
+    width: 97%;
     align-items: center;
     justify-content: center;
 }
