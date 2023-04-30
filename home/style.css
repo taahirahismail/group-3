@@ -1,0 +1,89 @@
+body{
+    background-image:url("../img/pride img.jpg");
+    background-repeat:no-repeat repeat; 
+    background-position: cover;
+    text: black;
+    width: 100%;
+}
+
+.h1{
+    text-align: center;
+    text:purple;
+}
+
+
+
+.navbar{
+    overflow: hidden;
+    background-color: pink;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    max-width: 150%;
+}
+
+.banner-img{
+    width:300px ;
+    height: 200px;
+    text-align: center;
+}
+.img-1{
+    width: 250px;
+    height: 300px;
+    text-align:left;
+}
+
+.container {
+    background-image:url("..img/pride img.jpg");
+}
+
+
+
+
+
+footer {
+    width: 100%;
+}
+
+.footer {
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: bisque;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer .icons {
+    display: flex;
+    padding: 10px;
+    float: right;
+}
+
+.footer .icons img {
+    padding: 3px;
+}
+
+.logo {
+    float: left;
+}
+
+.logo img {
+    width: 50px;
+}
+
+.footerDetail {
+    padding-top: 10px;
+}
+
+.footerDetail a {
+    color: black;
+    text-decoration: none;
+}
+
+.footerDetail a:hover {
+    color: rgba(0, 0, 0, 0.6);
+}
+

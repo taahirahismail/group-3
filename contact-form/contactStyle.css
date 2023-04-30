@@ -69,7 +69,7 @@ body {
 }
 
 .calendar {
-    margin: 10px 0;
+    margin: 0;
     padding: 20px;
     border: 1px solid;
     border-radius: 10px;
@@ -134,6 +134,10 @@ body {
     color: rgba(0, 0, 0, 0.6);
 }
 
+footer {
+    width: 100%;
+}
+
 .footer {
     font-size: 10px;
     text-align: center;
@@ -156,9 +160,12 @@ body {
     padding: 3px;
 }
 
+.logo {
+    float: left;
+}
+
 .logo img {
     width: 50px;
-    float: left;
 }
 
 .footerDetail {
@@ -172,4 +179,20 @@ body {
 
 .footerDetail a:hover {
     color: rgba(0, 0, 0, 0.6);
+}
+
+@media screen and (max-width: 992px) {
+    .contactForm, .calendar, .details, .footer {
+        width: 95%;
+        float: none;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .contactForm, .calendar, .details, .footer {
+        width: 85%;
+        float: none;
+        text-align: center;
+    }
 }
